@@ -1,0 +1,41 @@
+{
+  "name": "gumjs",
+  "description": "Event-driven, object-oriented automated deployment and configuration framework",
+  "version": "0.1.0",
+  "homepage": "https://github.com/atimb/gum.js",
+  "author": {
+    "name": "Attila Incze",
+    "email": "attila.incze@gmail.com",
+    "url": "http://atimb.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atimb/gum.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atimb/gum.js/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/atimb/gum.js/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/gum",
+  "engines": {
+    "node": "~0.8.8"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [],
+  "dependencies": {
+    "socket.io": "~0.9.13",
+    "socket.io-client": "~0.9.11",
+    "aws-sdk": "~0.9.4-pre.5",
+    "underscore": "~1.4.4"
+  }
+}
