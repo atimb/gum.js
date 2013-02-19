@@ -36,6 +36,7 @@
     "socket.io": "~0.9.13",
     "socket.io-client": "~0.9.11",
     "aws-sdk": "~0.9.4-pre.5",
-    "underscore": "~1.4.4"
+    "underscore": "~1.4.4",
+    "winston": "~0.6.2"
   }
 }
