@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var gumClient = require('../lib/client/gum-client');
+
+var config = require('../config/server.json');
+if (process.argv[2]) {
+    config.port = process.argv[2];
+}
+
+gumClient.start(config);

@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var gumServer = require('../lib/server/gum-server');
+
+var config = require('../config/server.json');
+
+gumServer.start(config);
