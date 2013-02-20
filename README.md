@@ -1,4 +1,4 @@
-# gumjs
+# gum.js [![Build Status](https://travis-ci.org/atimb/gum.js.png)](https://travis-ci.org/atimb/gum.js)
 
 Event-driven, object-oriented automated deployment and configuration framework
 
@@ -23,5 +23,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _(Nothing yet)_
 
 ## License
-Copyright (c) 2013 Attila Incze  
+Copyright (c) 2013 Attila Incze
 Licensed under the MIT license.
