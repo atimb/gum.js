@@ -1,5 +1,12 @@
 #!/usr/bin/env node
 
+/*
+ * gum.js
+ *
+ * Copyright (c) 2013 Nokia Siemens Networks
+ * Licensed under the MIT license.
+ */
+
 var gumServer = require('../lib/server/gum-server');
 
 var config = require('../config/server.json');

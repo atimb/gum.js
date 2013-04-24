@@ -45,9 +45,7 @@ Mongo.Cluster = Group.extend({
     },
 
     shardReady: function(shard) {
-        if (this.routers.length > 0) {
-            mongoScripts.addShard(this.routers[0], shard);
-        }
+        mongoScripts.addShard(this.routers[0], shard);
     },
 
     routerInstalled: function(router) {
@@ -94,6 +92,11 @@ Mongo.DB = Service.extend({
 
 
 Mongo.Router = Service.extend({
+
+    events: {
+        '#Mongo.DB online': 'addDb',
+        '#Mongo.Config online': 'addConfig'
+    },
 
     config: {
         'smallfiles': true

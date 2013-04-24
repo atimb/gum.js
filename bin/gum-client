@@ -1,10 +1,17 @@
 #!/usr/bin/env node
 
+/*
+ * gum.js
+ *
+ * Copyright (c) 2013 Nokia Siemens Networks
+ * Licensed under the MIT license.
+ */
+
 var gumClient = require('../lib/client/gum-client');
 
 var config = require('../config/server.json');
 if (process.argv[2]) {
-    config.port = process.argv[2];
+    config.id = process.argv[2];
 }
 
 gumClient.start(config);

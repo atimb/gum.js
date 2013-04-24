@@ -1,0 +1,22 @@
+{
+    "name": "My-app",
+    "instances": [
+        {
+            "services": [
+                "MongoDB.Router"
+            ]
+        },
+        {
+            "count": 2,
+            "services": [
+                "MongoDB.DB"
+            ]
+        },
+        {
+            "count": 3,
+            "services": [
+                "MongoDB.Config"
+            ]
+        }
+    ]
+}
